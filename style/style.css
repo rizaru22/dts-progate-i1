@@ -36,7 +36,7 @@ a{
     padding-top:10px;
     padding-left: 5%;
     color: #fcf8f8;
-    width: 300px;
+    width: 400px;
     float:left;
 }
 
@@ -45,7 +45,8 @@ a{
 }
 
 .logo h1{
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'VT323', monospace;
 }
 
 .menu {
