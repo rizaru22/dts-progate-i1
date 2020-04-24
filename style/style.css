@@ -156,7 +156,7 @@ a{
 
 .img-panel{
     width: 10%;
-    /* height: 120px; */
+    height: 10%;
     overflow: hidden;
     flex:auto;
     flex-wrap: wrap;
@@ -194,16 +194,19 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .workplace img{
     width: 400px;
-    margin-right: 40px;
+    margin-right: 40px;         
+    
 }
 
 .workplace p{
     text-align: justify;
     width: 400px;
+   
 }
 
 .portofolio-wrapper{
@@ -252,6 +255,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .team-profile img{
@@ -261,6 +265,8 @@ a{
     border:5px solid #fcf8f8;
     box-shadow: 1px 1px 0px rgba(47,54,64,0.5);
     margin:0px 10px;
+    display: block;
+    /* transition: all 1s; */
 }
 
 .footer{
@@ -277,12 +283,42 @@ a{
 }
 
 .team-profile h3,p{
+    /* color:#fbc531; */
     text-shadow: 1px 1px 0px rgba(47, 54, 64, 0.5);
 }
 
+/*
 .active img{
     width: 150px;
     height: 150px;
     border-radius: 75px;
 }
+
+.team-profile img:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}*/
+.team-profile{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    /* bottom: 0; */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(47, 54, 64, 0.5);
+  }
+
+  .team-profile:hover .overlay {
+    opacity: 1;
+  }
 
