@@ -63,6 +63,10 @@ a{
     font-weight: 500;
 }
 
+.menu-icon{
+    display: none;
+}
+
 .menu a:hover::after{
     border-bottom: 2px solid #fbc531;
     color:#fbc531;
@@ -126,7 +130,14 @@ a{
     position: relative;
     border-radius: 5px 5px;
     font-weight: 700;
+    box-shadow: 0px 7px #015d8b;
     /* margin-top: 230px; */
+}
+
+.btn:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
 }
 
 .info-panel-wrapper{
@@ -231,8 +242,9 @@ a{
 .portofolio{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     
-
 }
 
 .portofolio img{
@@ -242,6 +254,12 @@ a{
     border: 10px solid #fcf8f8;
     border-radius: 5px;
     margin: 0 30px;
+    transition: all 0.5s;
+}
+
+.portofolio img:hover{
+    width: 260px;
+    height: 360px;
 }
 
 .team-wrapper{
