@@ -113,12 +113,17 @@
     }
 
     .info-panel{
-        display: none;
+         display: none;
     }
 
 
     .img-panel{
         width: 300px;
+    }
+
+    .workplace p{
+        width: auto;
+        padding: 5px 50px;
     }
 
     .portofolio-wrapper{
@@ -135,7 +140,7 @@
 
     .team-wrapper{
         height: auto;
-    }
+    }         
     .team{
         flex-wrap: wrap;
     
