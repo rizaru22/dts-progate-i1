@@ -1,0 +1,154 @@
+@media(max-width:1000px){
+    .main{
+        background-size: cover; 
+        background-repeat: no-repeat;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .main h1{
+        padding-top:50px;
+    }
+
+
+
+    .info-panel-wrapper{
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .info-panel{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding:2px 10px;
+        box-shadow: none;
+     
+    }
+    .panel{
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    .img-panel img{
+        width: 40%;
+       
+        margin-right: -10px;
+    }
+
+  
+    
+    .txt-panel{
+        width: 50%;
+       margin-left: -150px;
+    }
+
+    .workplace-wrapper{
+        height: 100%;
+    }
+
+    .workplace {   
+        flex-direction: column;
+    }
+    .workplace img{
+        /* width: 50%; */
+        margin-right: 0px;
+        margin-bottom: 20px;
+      
+    }
+    
+    .workplace p{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    .portofolio-wrapper{
+        width: 100%;
+        height: 350px;
+    }
+
+    .portofolio img{
+        width:150px;
+        height: 200px;
+    }
+
+    .portofolio img:hover{
+        width: 160px;
+        height: 210px;
+    }
+
+}
+
+@media(max-width:670px){
+
+    .logo{
+        width: auto;
+    }
+    .logo h1{
+        
+        font-weight: 200;
+        font-size: 30px;
+    }
+
+    .menu-icon{
+        display: block;
+        float: right;
+        height: 100%;
+        margin-right: 5%;
+        padding-top: 10px;
+        color: #fbc531;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    /* .main{
+        text-align: left;
+    } */
+
+    .btn{
+        display: block;
+        text-align: center;
+        margin: 0px 40px;
+    }
+
+    .info-panel{
+         display: none;
+    }
+
+
+    .img-panel{
+        width: 300px;
+    }
+
+    .workplace p{
+        width: auto;
+        padding: 5px 50px;
+    }
+
+    .portofolio-wrapper{
+        height: auto;
+    }
+    .portofolio{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .portofolio img{
+        margin-bottom: 60px;
+    }
+
+    .team-wrapper{
+        height: auto;
+    }         
+    .team{
+        flex-wrap: wrap;
+    
+    }
+
+    .team-profile{
+        margin-bottom: 70px;
+    }
+
+    
+}
