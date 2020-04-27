@@ -102,9 +102,11 @@
         display: none;
     }
 
-    /* .main{
-        text-align: left;
-    } */
+    .main{
+        /* text-align: left; */
+        padding-top: 150px;
+        height: 600px;
+    }
 
     .btn{
         display: block;
